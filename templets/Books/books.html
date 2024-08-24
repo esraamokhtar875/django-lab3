@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>books</title>
+</head>
+<body>
+<h3 align="center"> all books</h3>
+<table border="1px solid black"  align="center">
+    <tr>
+        <th width="200px">Name</th>
+        <th width="200px"> Auther</th>
+    </tr>
+{%for x in Book %}
+    <tr>
+        <td width="200px"> {{x.name}}</td>
+        <td width="200px">{{x.auther}}</td>
+    </tr>
+{%endfor%}
+
+</table>
+</body>
+</html>

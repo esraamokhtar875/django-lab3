@@ -1,0 +1,22 @@
+<div>
+    <h1>Create account: </h1>
+</div>
+
+<form method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{form.as_p}}
+    <input type="submit" value="Add" />
+<!--  <button type="submit" value="Add">Login</button>-->
+<!--  <label for="username">Username:</label>-->
+<!--  <input type="text" name="username" id="username" />-->
+<!--  <br />-->
+<!--  <label for="password">Password:</label>-->
+<!--  <input type="password" name="password" id="password" />-->
+<!--  <br/>-->
+<!--  <label for ="email"> Email: </label>-->
+<!--  <input type="email" name="email" id="email">-->
+<!--  <br/>-->
+<!--  <label for="ID"> ID: </label>-->
+<!--  <input type="ID" name="id"  id="ID">-->
+<!--  <br/>-->
+</form>
